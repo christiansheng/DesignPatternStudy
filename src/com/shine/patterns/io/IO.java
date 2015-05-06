@@ -8,6 +8,9 @@ public class IO {
         System.out.println(s);
     }
 
+    public static void write(String tag, String s) {
+        write(tag + s);
+    }
     public static void read() {
         //to do later
     }
